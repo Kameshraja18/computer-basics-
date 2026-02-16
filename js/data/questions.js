@@ -27,12 +27,12 @@ const QUESTIONS = [
         topic: "Introduction & Fundamentals",
         questionText: "What does CPU stand for?",
         options: [
-            "Central Processing Unit",
             "Computer Personal Unit",
+            "Central Processing Unit",
             "Central Program Utility",
             "Computer Processing Utility"
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 1,
         difficulty: "easy",
         explanation: "CPU stands for Central Processing Unit. It is the primary component of a computer that performs most of the processing and acts as the 'brain' of the computer.",
         realWorldExample: "When you open a web browser and load a webpage, the CPU processes millions of instructions per second to render images, execute JavaScript, and handle your mouse clicks."
@@ -42,12 +42,12 @@ const QUESTIONS = [
         topic: "Introduction & Fundamentals",
         questionText: "Which generation of computers used vacuum tubes?",
         options: [
-            "First generation",
             "Second generation",
             "Third generation",
+            "First generation",
             "Fourth generation"
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 2,
         difficulty: "medium",
         explanation: "First generation computers (1940s-1950s) used vacuum tubes for circuitry and magnetic drums for memory. They were enormous, expensive, and generated a lot of heat.",
         realWorldExample: "ENIAC, one of the first electronic computers, used about 18,000 vacuum tubes, weighed 30 tons, and occupied an entire room. Today's smartphones are millions of times more powerful."
@@ -57,12 +57,12 @@ const QUESTIONS = [
         topic: "Introduction & Fundamentals",
         questionText: "What is the binary number system based on?",
         options: [
-            "Two digits (0 and 1)",
             "Ten digits (0-9)",
             "Eight digits (0-7)",
-            "Sixteen digits (0-F)"
+            "Sixteen digits (0-F)",
+            "Two digits (0 and 1)"
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 3,
         difficulty: "easy",
         explanation: "The binary system uses only two digits: 0 and 1. Computers use binary because electronic circuits can easily represent two states: on (1) and off (0).",
         realWorldExample: "Every photo, video, song, and document on your computer is ultimately stored as a sequence of 0s and 1s. A simple letter 'A' is represented as 01000001 in binary."
@@ -87,12 +87,12 @@ const QUESTIONS = [
         topic: "Introduction & Fundamentals",
         questionText: "What is data?",
         options: [
-            "Raw facts and figures",
             "Processed information",
+            "Raw facts and figures",
             "Computer programs",
             "Output only"
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 1,
         difficulty: "easy",
         explanation: "Data refers to raw, unprocessed facts and figures that have no meaning on their own. When data is processed and organized, it becomes information.",
         realWorldExample: "The numbers 98, 85, 92, 78 are data. When processed to calculate an average of 88.25 and labeled as 'Student Test Scores Average,' it becomes meaningful information."
@@ -102,12 +102,12 @@ const QUESTIONS = [
         topic: "Introduction & Fundamentals",
         questionText: "Who is known as the father of computers?",
         options: [
-            "Charles Babbage",
             "Bill Gates",
             "Steve Jobs",
+            "Charles Babbage",
             "Alan Turing"
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 2,
         difficulty: "medium",
         explanation: "Charles Babbage is called the 'Father of Computers' because he designed the first mechanical computer called the Analytical Engine in the 1830s, which had concepts similar to modern computers.",
         realWorldExample: "Babbage's Analytical Engine design included an arithmetic logic unit, control flow through loops, and memory—concepts still fundamental to every computer today, from smartphones to supercomputers."
@@ -117,12 +117,12 @@ const QUESTIONS = [
         topic: "Introduction & Fundamentals",
         questionText: "What is the difference between hardware and software?",
         options: [
-            "Hardware is physical; software is programs",
             "They are the same thing",
             "Hardware is programs; software is physical",
-            "Both are physical components"
+            "Both are physical components",
+            "Hardware is physical; software is programs"
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 3,
         difficulty: "easy",
         explanation: "Hardware refers to the physical components of a computer (keyboard, monitor, CPU), while software refers to the programs and instructions that tell the hardware what to do.",
         realWorldExample: "Your laptop's keyboard and screen are hardware—you can touch them. Microsoft Word or Chrome browser are software—they're instructions that run on the hardware."
@@ -147,12 +147,12 @@ const QUESTIONS = [
         topic: "Introduction & Fundamentals",
         questionText: "What is an algorithm?",
         options: [
-            "A step-by-step procedure to solve a problem",
             "A type of computer virus",
+            "A step-by-step procedure to solve a problem",
             "A hardware component",
             "An internet browser"
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 1,
         difficulty: "medium",
         explanation: "An algorithm is a finite sequence of well-defined instructions used to solve a specific problem or perform a computation. It's like a recipe that tells the computer exactly what to do.",
         realWorldExample: "Google's search algorithm processes your query and returns relevant results in milliseconds. A GPS navigation app uses algorithms to find the fastest route to your destination."
@@ -162,12 +162,12 @@ const QUESTIONS = [
         topic: "Introduction & Fundamentals",
         questionText: "What is a byte?",
         options: [
-            "8 bits",
             "4 bits",
             "16 bits",
+            "8 bits",
             "1 bit"
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 2,
         difficulty: "easy",
         explanation: "A byte consists of 8 bits and is the basic unit of digital information storage. One byte can represent a single character like a letter or number.",
         realWorldExample: "A single letter 'A' takes 1 byte of storage. A typical email might be 10-20 kilobytes (10,000-20,000 bytes). A high-resolution photo could be 5 megabytes (5 million bytes)."
@@ -177,12 +177,12 @@ const QUESTIONS = [
         topic: "Introduction & Fundamentals",
         questionText: "What is the full form of IT?",
         options: [
-            "Information Technology",
             "Internet Technology",
             "Integrated Technology",
-            "Internal Technology"
+            "Internal Technology",
+            "Information Technology"
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 3,
         difficulty: "easy",
         explanation: "IT stands for Information Technology, which encompasses the use of computers, storage, networking, and other devices to create, process, store, and exchange electronic data.",
         realWorldExample: "The IT department at a company manages everything from email servers and employee computers to cybersecurity and software updates."
@@ -211,12 +211,12 @@ const QUESTIONS = [
         topic: "Hardware",
         questionText: "What is the function of RAM in a computer?",
         options: [
-            "Temporary storage for running programs",
             "Permanent storage of files",
+            "Temporary storage for running programs",
             "Display output on screen",
             "Connect to the internet"
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 1,
         difficulty: "easy",
         explanation: "RAM (Random Access Memory) provides temporary, fast storage for data and programs currently in use. It loses all data when power is turned off.",
         realWorldExample: "When you open multiple browser tabs, each tab's data is stored in RAM. That's why having more RAM lets you keep more apps open without your computer slowing down."
@@ -226,12 +226,12 @@ const QUESTIONS = [
         topic: "Hardware",
         questionText: "Which of the following is an input device?",
         options: [
-            "Keyboard",
             "Monitor",
             "Printer",
+            "Keyboard",
             "Speaker"
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 2,
         difficulty: "easy",
         explanation: "An input device sends data to the computer. The keyboard is an input device because it allows users to enter text and commands into the computer.",
         realWorldExample: "When you type an email or search query, the keyboard converts your key presses into signals the computer can understand and process."
@@ -241,12 +241,12 @@ const QUESTIONS = [
         topic: "Hardware",
         questionText: "Which of the following is an output device?",
         options: [
-            "Printer",
             "Mouse",
             "Keyboard",
-            "Scanner"
+            "Scanner",
+            "Printer"
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 3,
         difficulty: "easy",
         explanation: "An output device receives data from the computer and presents it to the user. A printer produces physical copies of digital documents.",
         realWorldExample: "When you print a boarding pass or a report, the printer takes digital data from your computer and creates a physical paper copy you can hold."
@@ -271,12 +271,12 @@ const QUESTIONS = [
         topic: "Hardware",
         questionText: "What is the motherboard?",
         options: [
-            "The main circuit board connecting all components",
             "A type of processor",
+            "The main circuit board connecting all components",
             "External storage device",
             "Display screen"
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 1,
         difficulty: "easy",
         explanation: "The motherboard is the main printed circuit board in a computer. It holds and allows communication between the CPU, RAM, storage devices, and other hardware components.",
         realWorldExample: "Think of the motherboard as the nervous system of your computer—it connects the brain (CPU) to memory (RAM), senses (input devices), and everything else."
@@ -286,12 +286,12 @@ const QUESTIONS = [
         topic: "Hardware",
         questionText: "What is the purpose of a power supply unit (PSU)?",
         options: [
-            "Convert AC power to DC for computer components",
             "Store electricity for later use",
             "Cool down the computer",
+            "Convert AC power to DC for computer components",
             "Display battery status"
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 2,
         difficulty: "medium",
         explanation: "The PSU converts alternating current (AC) from your wall outlet into direct current (DC) that computer components need. It also regulates voltage to protect components.",
         realWorldExample: "Your wall outlet provides 120V or 240V AC power, but your CPU might need only 1.2V DC. The PSU makes this conversion safely and efficiently."
@@ -301,12 +301,12 @@ const QUESTIONS = [
         topic: "Hardware",
         questionText: "What is a USB port used for?",
         options: [
-            "Connecting external devices to the computer",
             "Displaying graphics",
             "Processing data",
-            "Cooling the system"
+            "Cooling the system",
+            "Connecting external devices to the computer"
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 3,
         difficulty: "easy",
         explanation: "USB (Universal Serial Bus) ports allow you to connect external devices like keyboards, mice, flash drives, printers, and phones to your computer.",
         realWorldExample: "When you plug in a USB flash drive to transfer photos or connect your phone to charge and sync, you're using USB technology."
@@ -331,12 +331,12 @@ const QUESTIONS = [
         topic: "Hardware",
         questionText: "What is an SSD?",
         options: [
-            "Solid State Drive - a fast storage device",
             "System Software Driver",
+            "Solid State Drive - a fast storage device",
             "Serial Signal Device",
             "Standard Storage Disk"
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 1,
         difficulty: "easy",
         explanation: "An SSD (Solid State Drive) is a storage device that uses flash memory to store data. It has no moving parts, making it faster, quieter, and more durable than traditional hard drives.",
         realWorldExample: "Computers with SSDs can boot up in 10-15 seconds, while those with traditional hard drives might take a minute or more. Apps also load much faster with SSDs."
@@ -346,12 +346,12 @@ const QUESTIONS = [
         topic: "Hardware",
         questionText: "What is a scanner used for?",
         options: [
-            "Converting physical documents to digital format",
             "Printing documents",
             "Playing audio",
+            "Converting physical documents to digital format",
             "Connecting to internet"
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 2,
         difficulty: "easy",
         explanation: "A scanner is an input device that captures images of physical documents, photos, or objects and converts them into digital files that can be stored and edited on a computer.",
         realWorldExample: "When you need to email a signed contract or digitize old family photos, a scanner creates digital copies you can store, share, or edit on your computer."
@@ -361,12 +361,12 @@ const QUESTIONS = [
         topic: "Hardware",
         questionText: "What is the purpose of a webcam?",
         options: [
-            "Capture video and images for video calls",
             "Print documents",
             "Store files",
-            "Play music"
+            "Play music",
+            "Capture video and images for video calls"
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 3,
         difficulty: "easy",
         explanation: "A webcam is a video camera that captures real-time video. It's commonly used for video conferencing, live streaming, and taking photos or videos.",
         realWorldExample: "During a Zoom meeting or video call with family, the webcam captures your face and transmits the video feed to other participants in real-time."
@@ -391,12 +391,12 @@ const QUESTIONS = [
         topic: "Hardware",
         questionText: "What is a touchscreen?",
         options: [
-            "A display that responds to touch input",
             "A type of keyboard",
+            "A display that responds to touch input",
             "A cooling system",
             "A sound device"
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 1,
         difficulty: "easy",
         explanation: "A touchscreen is a display device that can detect and respond to touch. It serves as both an input and output device, allowing direct interaction with displayed content.",
         realWorldExample: "Smartphones and tablets use touchscreens that let you tap icons, swipe through photos, pinch to zoom, and type on virtual keyboards using your fingers."
@@ -406,12 +406,12 @@ const QUESTIONS = [
         topic: "Hardware",
         questionText: "What is the function of a network interface card (NIC)?",
         options: [
-            "Connect a computer to a network",
             "Process graphics",
             "Store data permanently",
+            "Connect a computer to a network",
             "Convert text to speech"
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 2,
         difficulty: "medium",
         explanation: "A Network Interface Card (NIC) allows a computer to connect to a network, either through an Ethernet cable (wired) or WiFi (wireless). It handles network communication.",
         realWorldExample: "Your laptop's WiFi adapter is a type of NIC. It lets you connect to your home router, office network, or coffee shop WiFi to access the internet."
@@ -425,12 +425,12 @@ const QUESTIONS = [
         topic: "Software",
         questionText: "What is system software?",
         options: [
-            "Software that manages computer hardware and provides a platform for applications",
             "Software used for gaming only",
             "Software that only creates documents",
-            "Software for internet browsing only"
+            "Software for internet browsing only",
+            "Software that manages computer hardware and provides a platform for applications"
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 3,
         difficulty: "easy",
         explanation: "System software manages computer hardware resources and provides common services for application software. The operating system is the most important type of system software.",
         realWorldExample: "Windows, macOS, and Linux are system software. They manage your files, run programs, control hardware like printers, and provide the interface you interact with."
@@ -455,12 +455,12 @@ const QUESTIONS = [
         topic: "Software",
         questionText: "What is an operating system?",
         options: [
-            "Software that manages hardware and provides services for programs",
             "A word processing application",
+            "Software that manages hardware and provides services for programs",
             "An internet browser",
             "A type of virus"
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 1,
         difficulty: "easy",
         explanation: "An operating system (OS) is system software that manages computer hardware and software resources. It provides a user interface and platform for running applications.",
         realWorldExample: "Windows 11, macOS Sonoma, and Android are operating systems. When you click an icon to open an app, the OS handles loading it from storage and allocating memory."
@@ -470,12 +470,12 @@ const QUESTIONS = [
         topic: "Software",
         questionText: "Which of the following is NOT an operating system?",
         options: [
-            "Microsoft Word",
             "Windows 11",
             "macOS",
+            "Microsoft Word",
             "Linux"
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 2,
         difficulty: "easy",
         explanation: "Microsoft Word is a word processing application, not an operating system. Windows, macOS, and Linux are all operating systems that manage computer resources.",
         realWorldExample: "You need an operating system like Windows to run Microsoft Word. Word is just one of many applications that can run on top of the Windows operating system."
@@ -485,12 +485,12 @@ const QUESTIONS = [
         topic: "Software",
         questionText: "What is firmware?",
         options: [
-            "Permanent software programmed into hardware",
             "Temporary files on your desktop",
             "Internet browser extensions",
-            "Video game software"
+            "Video game software",
+            "Permanent software programmed into hardware"
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 3,
         difficulty: "medium",
         explanation: "Firmware is specialized software embedded directly into hardware devices. It provides low-level control for the device's specific functions and is stored in non-volatile memory.",
         realWorldExample: "Your router has firmware that controls how it manages network traffic. Your TV remote, washing machine, and car's engine control unit all have firmware."
@@ -515,12 +515,12 @@ const QUESTIONS = [
         topic: "Software",
         questionText: "What is a software license?",
         options: [
-            "Legal agreement defining how software can be used",
             "A type of virus protection",
+            "Legal agreement defining how software can be used",
             "Hardware warranty",
             "Internet connection permit"
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 1,
         difficulty: "medium",
         explanation: "A software license is a legal agreement that specifies how software can be used, copied, modified, and distributed. It protects both the developer's rights and defines user permissions.",
         realWorldExample: "When you install Microsoft Office, you agree to their license terms. Some licenses allow home use only, while others permit business use—violating terms can have legal consequences."
@@ -530,12 +530,12 @@ const QUESTIONS = [
         topic: "Software",
         questionText: "What is a software update?",
         options: [
-            "New version of software with improvements or fixes",
             "Deleting old software",
             "Buying new hardware",
+            "New version of software with improvements or fixes",
             "Connecting to WiFi"
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 2,
         difficulty: "easy",
         explanation: "A software update (or patch) is a modified version of software that fixes bugs, addresses security vulnerabilities, or adds new features to existing software.",
         realWorldExample: "When your phone prompts you to update apps or the operating system, these updates might fix crashes, patch security holes, or add features like new emojis."
@@ -545,12 +545,12 @@ const QUESTIONS = [
         topic: "Software",
         questionText: "What is a web browser?",
         options: [
-            "Application software for accessing websites",
             "An operating system",
             "A type of hardware",
-            "A computer virus"
+            "A computer virus",
+            "Application software for accessing websites"
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 3,
         difficulty: "easy",
         explanation: "A web browser is application software that allows users to access, view, and interact with websites on the World Wide Web. It interprets HTML, CSS, and JavaScript to display web pages.",
         realWorldExample: "Chrome, Firefox, Safari, and Edge are web browsers. When you type google.com, the browser requests the page, receives the code, and renders it visually for you."
@@ -575,12 +575,12 @@ const QUESTIONS = [
         topic: "Software",
         questionText: "What is a device driver?",
         options: [
-            "Software that allows OS to communicate with hardware",
             "A type of storage device",
+            "Software that allows OS to communicate with hardware",
             "An internet browser",
             "A gaming console"
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 1,
         difficulty: "medium",
         explanation: "A device driver is software that enables the operating system to communicate with hardware devices. Each device needs its specific driver to function properly.",
         realWorldExample: "When you plug in a new printer, Windows installs a driver that tells the OS how to send print commands to that specific printer model."
@@ -590,12 +590,12 @@ const QUESTIONS = [
         topic: "Software",
         questionText: "What is cloud-based software?",
         options: [
-            "Software accessed over the internet rather than installed locally",
             "Software stored on USB drives",
             "Software that only works offline",
+            "Software accessed over the internet rather than installed locally",
             "Hardware components in the sky"
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 2,
         difficulty: "medium",
         explanation: "Cloud-based software (SaaS - Software as a Service) runs on remote servers and is accessed via the internet. Users don't need to install or maintain the software locally.",
         realWorldExample: "Google Docs, Dropbox, Netflix, and Salesforce are cloud-based. You access them through a browser or app, and your data is stored on their servers, accessible from any device."
@@ -609,12 +609,12 @@ const QUESTIONS = [
         topic: "Operating Systems & GUI",
         questionText: "What is a GUI?",
         options: [
-            "Graphical User Interface",
             "General User Input",
             "Graphics Utility Integration",
-            "General Utility Interface"
+            "General Utility Interface",
+            "Graphical User Interface"
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 3,
         difficulty: "easy",
         explanation: "GUI (Graphical User Interface) is a visual way of interacting with computers using icons, windows, menus, and a mouse pointer instead of text commands.",
         realWorldExample: "The Windows desktop with its icons, Start menu, and windows you can drag around is a GUI. Before GUIs, users typed text commands to do everything."
@@ -639,12 +639,12 @@ const QUESTIONS = [
         topic: "Operating Systems & GUI",
         questionText: "What is multitasking in an operating system?",
         options: [
-            "Running multiple programs simultaneously",
             "Using multiple monitors",
+            "Running multiple programs simultaneously",
             "Having multiple users",
             "Installing multiple operating systems"
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 1,
         difficulty: "easy",
         explanation: "Multitasking allows an OS to run multiple applications at the same time. The OS rapidly switches between tasks, giving the illusion of simultaneous execution.",
         realWorldExample: "While you're browsing the web, you can have music playing in Spotify, download a file, and receive email notifications—all happening 'at once' thanks to multitasking."
@@ -654,12 +654,12 @@ const QUESTIONS = [
         topic: "Operating Systems & GUI",
         questionText: "What is the Desktop in an operating system?",
         options: [
-            "The main screen area where you work with files and programs",
             "A type of computer hardware",
             "The internal processor",
+            "The main screen area where you work with files and programs",
             "An internet browser"
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 2,
         difficulty: "easy",
         explanation: "The desktop is the primary screen you see after logging in. It displays icons for files, folders, and programs, and serves as a workspace for organizing your digital content.",
         realWorldExample: "Just like a physical desk where you keep frequently used items within reach, your computer desktop holds shortcuts to your most-used apps and files."
@@ -669,12 +669,12 @@ const QUESTIONS = [
         topic: "Operating Systems & GUI",
         questionText: "What is the Control Panel used for in Windows?",
         options: [
-            "Changing system settings and configuring hardware",
             "Playing video games",
             "Browsing the internet",
-            "Creating documents"
+            "Creating documents",
+            "Changing system settings and configuring hardware"
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 3,
         difficulty: "easy",
         explanation: "Control Panel (and its modern equivalent, Settings) allows users to configure system settings, install/remove programs, manage user accounts, and set up hardware.",
         realWorldExample: "Need to change your display resolution, add a printer, or uninstall a program? You'd go to Control Panel or Settings to make these system-level changes."
@@ -699,12 +699,12 @@ const QUESTIONS = [
         topic: "Operating Systems & GUI",
         questionText: "What is a window in computing?",
         options: [
-            "A rectangular area displaying program content",
             "The operating system itself",
+            "A rectangular area displaying program content",
             "A type of hardware",
             "An internet connection"
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 1,
         difficulty: "easy",
         explanation: "A window is a rectangular viewing area on screen that displays the content of an application. Windows can be moved, resized, minimized, maximized, and closed.",
         realWorldExample: "When you open File Explorer, it appears in a window. You can drag its edges to resize, click the X to close it, or drag the title bar to move it."
@@ -714,12 +714,12 @@ const QUESTIONS = [
         topic: "Operating Systems & GUI",
         questionText: "What does 'right-clicking' typically do?",
         options: [
-            "Opens a context menu with additional options",
             "Closes the application",
             "Saves the file",
+            "Opens a context menu with additional options",
             "Deletes the item"
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 2,
         difficulty: "easy",
         explanation: "Right-clicking opens a context menu that shows relevant options for the clicked item. The menu content changes based on what you right-click on.",
         realWorldExample: "Right-click on your desktop to see options like display settings, personalize, and create new folder. Right-click a file to copy, delete, rename, or see properties."
@@ -729,12 +729,12 @@ const QUESTIONS = [
         topic: "Operating Systems & GUI",
         questionText: "What is virtual memory?",
         options: [
-            "Hard drive space used as additional RAM",
             "Cloud storage",
             "USB drive memory",
-            "Graphics card memory"
+            "Graphics card memory",
+            "Hard drive space used as additional RAM"
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 3,
         difficulty: "medium",
         explanation: "Virtual memory is a technique where the OS uses hard drive space to extend RAM. When RAM is full, less-used data is temporarily moved to the hard drive.",
         realWorldExample: "If you have 8GB RAM but open programs needing 10GB, the OS uses virtual memory. That's why your computer slows down with too many apps open."
@@ -759,12 +759,12 @@ const QUESTIONS = [
         topic: "Operating Systems & GUI",
         questionText: "What is the Recycle Bin?",
         options: [
-            "Temporary storage for deleted files before permanent removal",
             "A folder for recycling old computers",
+            "Temporary storage for deleted files before permanent removal",
             "An antivirus program",
             "A system backup location"
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 1,
         difficulty: "easy",
         explanation: "The Recycle Bin stores deleted files temporarily. You can restore accidentally deleted files or empty the bin to permanently free up disk space.",
         realWorldExample: "Deleted an important document by mistake? Check the Recycle Bin first—it's likely still there. Right-click and choose 'Restore' to get it back."
@@ -774,12 +774,12 @@ const QUESTIONS = [
         topic: "Operating Systems & GUI",
         questionText: "What keyboard shortcut opens a new window in most browsers?",
         options: [
-            "Ctrl + N",
             "Ctrl + S",
             "Ctrl + P",
+            "Ctrl + N",
             "Ctrl + Z"
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 2,
         difficulty: "easy",
         explanation: "Ctrl + N is a universal shortcut for opening a new window in browsers and many applications. N stands for 'New'.",
         realWorldExample: "In Chrome or Firefox, pressing Ctrl + N opens a brand new browser window, separate from your current browsing session."
@@ -793,12 +793,12 @@ const QUESTIONS = [
         topic: "Data, Files & Folders",
         questionText: "What is a file?",
         options: [
-            "A named collection of related data stored on a device",
             "A physical document only",
             "A computer hardware component",
-            "An internet website"
+            "An internet website",
+            "A named collection of related data stored on a device"
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 3,
         difficulty: "easy",
         explanation: "A file is a container for storing information digitally. Files have names and extensions that indicate their type, and are stored on storage devices.",
         realWorldExample: "resume.docx is a Word document file, vacation.jpg is an image file, and song.mp3 is an audio file. Each contains specific data in a particular format."
@@ -823,12 +823,12 @@ const QUESTIONS = [
         topic: "Data, Files & Folders",
         questionText: "What is a file extension?",
         options: [
-            "Characters after the dot that indicate file type",
             "The size of a file",
+            "Characters after the dot that indicate file type",
             "The creation date",
             "The file creator's name"
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 1,
         difficulty: "easy",
         explanation: "A file extension is the suffix after the dot in a filename that indicates the file format and which programs can open it.",
         realWorldExample: ".pdf indicates a PDF document, .jpg is an image, .mp4 is a video, .xlsx is an Excel file. The extension tells your computer which app to use."
@@ -838,12 +838,12 @@ const QUESTIONS = [
         topic: "Data, Files & Folders",
         questionText: "What is the difference between 'saving' and 'saving as'?",
         options: [
-            "Save updates existing file; Save As creates a new file or location",
             "They are exactly the same",
             "Save As is faster than Save",
+            "Save updates existing file; Save As creates a new file or location",
             "Save creates backups; Save As does not"
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 2,
         difficulty: "easy",
         explanation: "Save updates the current file with changes. Save As lets you create a new copy with a different name, location, or format, preserving the original.",
         realWorldExample: "Editing report.docx and pressing Ctrl+S updates that file. Using Save As to create report_v2.docx gives you both versions."
@@ -853,12 +853,12 @@ const QUESTIONS = [
         topic: "Data, Files & Folders",
         questionText: "What is a file path?",
         options: [
-            "The complete location address of a file in the system",
             "The speed at which a file opens",
             "The size of a file",
-            "A type of file format"
+            "A type of file format",
+            "The complete location address of a file in the system"
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 3,
         difficulty: "medium",
         explanation: "A file path is the unique location of a file within a file system, showing the hierarchy of folders from the root to the file.",
         realWorldExample: "C:\\Users\\John\\Documents\\Reports\\annual_report.pdf is a Windows file path. It shows exactly where the file is stored in the folder hierarchy."
@@ -883,12 +883,12 @@ const QUESTIONS = [
         topic: "Data, Files & Folders",
         questionText: "What happens when you 'cut and paste' a file?",
         options: [
-            "Moves the file from one location to another",
             "Creates a duplicate",
+            "Moves the file from one location to another",
             "Deletes the file permanently",
             "Renames the file"
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 1,
         difficulty: "easy",
         explanation: "Cut and paste moves content from one location to another. Unlike copy, the original is removed from its source location.",
         realWorldExample: "Cut a photo from your Downloads folder and paste it into your Pictures folder. The photo moves—it's no longer in Downloads."
@@ -898,12 +898,12 @@ const QUESTIONS = [
         topic: "Data, Files & Folders",
         questionText: "What is a backup?",
         options: [
-            "A copy of data stored separately for protection",
             "The main storage location",
             "Deleting old files",
+            "A copy of data stored separately for protection",
             "Compressing files"
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 2,
         difficulty: "easy",
         explanation: "A backup is a copy of files stored in a separate location to protect against data loss from hardware failure, accidental deletion, or malware.",
         realWorldExample: "Copying your photos to an external hard drive or cloud service like Google Drive ensures you don't lose them if your computer crashes."
@@ -913,12 +913,12 @@ const QUESTIONS = [
         topic: "Data, Files & Folders",
         questionText: "What is file compression?",
         options: [
-            "Reducing file size for easier storage and transfer",
             "Increasing file quality",
             "Encrypting files",
-            "Deleting unnecessary files"
+            "Deleting unnecessary files",
+            "Reducing file size for easier storage and transfer"
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 3,
         difficulty: "medium",
         explanation: "Compression reduces file size by encoding data more efficiently. Compressed files take less storage space and transfer faster over the internet.",
         realWorldExample: "A 100MB folder compressed into a .zip file might become 60MB. This makes it faster to email or upload to cloud storage."
@@ -947,12 +947,12 @@ const QUESTIONS = [
         topic: "Memory & Storage",
         questionText: "What is RAM and what does it do?",
         options: [
-            "Random Access Memory - temporary storage for active programs",
             "Read-only permanent storage",
+            "Random Access Memory - temporary storage for active programs",
             "Long-term file storage",
             "Internet connection memory"
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 1,
         difficulty: "easy",
         explanation: "RAM is volatile memory that stores data currently being used by the CPU. It's fast but loses all content when power is turned off.",
         realWorldExample: "When you open Chrome, it loads into RAM for quick access. Close Chrome, and that RAM is freed. Turn off your PC, and RAM is completely emptied."
@@ -962,12 +962,12 @@ const QUESTIONS = [
         topic: "Memory & Storage",
         questionText: "What is ROM?",
         options: [
-            "Read-Only Memory - permanent storage for startup instructions",
             "Random Operating Memory",
             "Temporary file storage",
+            "Read-Only Memory - permanent storage for startup instructions",
             "A type of hard drive"
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 2,
         difficulty: "easy",
         explanation: "ROM (Read-Only Memory) contains permanent instructions that don't change, like the BIOS that starts your computer. Data in ROM isn't lost when power is off.",
         realWorldExample: "When you first power on your computer, ROM contains the BIOS instructions that check hardware and start loading the operating system."
@@ -977,12 +977,12 @@ const QUESTIONS = [
         topic: "Memory & Storage",
         questionText: "What is the difference between RAM and hard drive storage?",
         options: [
-            "RAM is fast temporary memory; hard drive is slower permanent storage",
             "They are the same thing",
             "Hard drive is faster than RAM",
-            "RAM stores files permanently"
+            "RAM stores files permanently",
+            "RAM is fast temporary memory; hard drive is slower permanent storage"
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 3,
         difficulty: "easy",
         explanation: "RAM is very fast but temporary - data is lost when power is off. Hard drives are slower but store data permanently, even when the computer is off.",
         realWorldExample: "Your saved documents stay on the hard drive after shutdown. But the webpage you were viewing (loaded in RAM) needs to be reloaded when you restart."
@@ -1007,12 +1007,12 @@ const QUESTIONS = [
         topic: "Memory & Storage",
         questionText: "How is SSD different from HDD?",
         options: [
-            "SSD uses flash memory with no moving parts; HDD uses spinning disks",
             "They are exactly the same",
+            "SSD uses flash memory with no moving parts; HDD uses spinning disks",
             "HDD is faster than SSD",
             "SSD has more storage capacity"
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 1,
         difficulty: "easy",
         explanation: "SSDs store data on flash memory chips without moving parts, making them faster, quieter, more durable, but more expensive than HDDs.",
         realWorldExample: "A laptop with an SSD boots in 10-15 seconds and opens apps almost instantly. The same laptop with an HDD might take a minute to boot."
@@ -1022,12 +1022,12 @@ const QUESTIONS = [
         topic: "Memory & Storage",
         questionText: "What is a USB flash drive?",
         options: [
-            "Portable storage device using flash memory",
             "A type of RAM",
             "A display adapter",
+            "Portable storage device using flash memory",
             "An internet modem"
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 2,
         difficulty: "easy",
         explanation: "A USB flash drive is a small, portable storage device that plugs into USB ports. It uses flash memory to store data and doesn't need external power.",
         realWorldExample: "Students carry flash drives to transfer homework between home and school computers. They're small enough to fit on a keychain but can store gigabytes of data."
@@ -1037,12 +1037,12 @@ const QUESTIONS = [
         topic: "Memory & Storage",
         questionText: "What is cloud storage?",
         options: [
-            "Remote servers accessed via internet for storing data",
             "Storage in the sky atmosphere",
             "Local hard drive storage",
-            "RAM memory in a cloud shape"
+            "RAM memory in a cloud shape",
+            "Remote servers accessed via internet for storing data"
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 3,
         difficulty: "easy",
         explanation: "Cloud storage saves data on remote servers accessed through the internet. Your files are stored in data centers and accessible from any device with internet.",
         realWorldExample: "Google Drive, Dropbox, and iCloud let you save photos and documents online. Take a photo on your phone, and it appears on your laptop automatically."
@@ -1067,12 +1067,12 @@ const QUESTIONS = [
         topic: "Memory & Storage",
         questionText: "What is cache memory?",
         options: [
-            "Fast memory between CPU and RAM for quick data access",
             "A type of hard drive",
+            "Fast memory between CPU and RAM for quick data access",
             "Cloud storage",
             "External storage device"
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 1,
         difficulty: "medium",
         explanation: "Cache is extremely fast memory located on or near the CPU. It stores frequently used data so the CPU doesn't have to wait for slower RAM.",
         realWorldExample: "When you visit a website repeatedly, your browser caches images locally. The page loads faster because it doesn't re-download everything."
@@ -1082,12 +1082,12 @@ const QUESTIONS = [
         topic: "Memory & Storage",
         questionText: "What is an SD card?",
         options: [
-            "Secure Digital card - portable flash storage",
             "System Data card",
             "Storage Disk card",
+            "Secure Digital card - portable flash storage",
             "Serial Device card"
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 2,
         difficulty: "easy",
         explanation: "SD (Secure Digital) cards are small, portable flash memory cards used in cameras, phones, and other devices to expand storage.",
         realWorldExample: "Cameras use SD cards to store photos. You can remove the card and insert it into a computer to transfer your vacation photos."
@@ -1097,12 +1097,12 @@ const QUESTIONS = [
         topic: "Memory & Storage",
         questionText: "What is volatile memory?",
         options: [
-            "Memory that loses data when power is turned off",
             "Memory that keeps data permanently",
             "External hard drives",
-            "Cloud storage"
+            "Cloud storage",
+            "Memory that loses data when power is turned off"
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 3,
         difficulty: "medium",
         explanation: "Volatile memory requires constant power to maintain stored data. RAM is volatile - when you shut down, everything in RAM is lost.",
         realWorldExample: "If your computer crashes while writing a document, unsaved work in RAM is lost. That's why applications auto-save and why you should save frequently."
@@ -1131,12 +1131,12 @@ const QUESTIONS = [
         topic: "Internet & Web Basics",
         questionText: "What is the Internet?",
         options: [
-            "A global network of interconnected computers",
             "A single large computer",
+            "A global network of interconnected computers",
             "A type of software",
             "A cable connecting two computers"
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 1,
         difficulty: "easy",
         explanation: "The Internet is a massive global network connecting billions of computers and devices. It allows them to communicate and share information worldwide.",
         realWorldExample: "When you send an email from India to someone in the USA, it travels through multiple connected networks—the Internet—to reach them in seconds."
@@ -1146,12 +1146,12 @@ const QUESTIONS = [
         topic: "Internet & Web Basics",
         questionText: "What is a URL?",
         options: [
-            "Uniform Resource Locator - a web address",
             "Universal Router Link",
             "User Registration Login",
+            "Uniform Resource Locator - a web address",
             "Upload Resource Location"
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 2,
         difficulty: "easy",
         explanation: "A URL is the address you type in a browser to visit a website. It specifies the location of a resource on the internet.",
         realWorldExample: "https://www.google.com is a URL. It tells your browser to use HTTPS protocol to access the server at www.google.com."
@@ -1161,12 +1161,12 @@ const QUESTIONS = [
         topic: "Internet & Web Basics",
         questionText: "What is a search engine?",
         options: [
-            "A tool for finding information on the internet",
             "A type of web browser",
             "An email service",
-            "A social media platform"
+            "A social media platform",
+            "A tool for finding information on the internet"
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 3,
         difficulty: "easy",
         explanation: "A search engine is a software system that searches the web for content matching your query and presents relevant results.",
         realWorldExample: "Google, Bing, and DuckDuckGo are search engines. Type 'weather forecast' and they search billions of pages to find and rank relevant results."
@@ -1191,12 +1191,12 @@ const QUESTIONS = [
         topic: "Internet & Web Basics",
         questionText: "What is an email?",
         options: [
-            "Electronic mail - digital messages sent over the internet",
             "A physical letter",
+            "Electronic mail - digital messages sent over the internet",
             "A type of website",
             "An internet browser"
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 1,
         difficulty: "easy",
         explanation: "Email (electronic mail) is a method of sending digital messages between people using email addresses. It's one of the oldest and most used internet services.",
         realWorldExample: "Send a job application, receive order confirmations, or keep in touch with family across the world—email makes it instant and free."
@@ -1206,12 +1206,12 @@ const QUESTIONS = [
         topic: "Internet & Web Basics",
         questionText: "What is a hyperlink?",
         options: [
-            "Clickable text or image that takes you to another webpage",
             "A type of virus",
             "Internet speed measurement",
+            "Clickable text or image that takes you to another webpage",
             "A download button"
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 2,
         difficulty: "easy",
         explanation: "A hyperlink (link) is a reference in a document that users can click to jump to another location, webpage, or resource.",
         realWorldExample: "The blue underlined text in articles that says 'click here to learn more' is a hyperlink. Click it, and you're taken to another page."
@@ -1221,12 +1221,12 @@ const QUESTIONS = [
         topic: "Internet & Web Basics",
         questionText: "What does HTTP stand for?",
         options: [
-            "HyperText Transfer Protocol",
             "High Transfer Text Protocol",
             "Hyper Technical Transfer Program",
-            "Home Text Transfer Process"
+            "Home Text Transfer Process",
+            "HyperText Transfer Protocol"
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 3,
         difficulty: "medium",
         explanation: "HTTP (HyperText Transfer Protocol) is the foundation of data communication on the web, defining how messages are formatted and transmitted.",
         realWorldExample: "When you type a web address, HTTP/HTTPS tells browsers and servers how to send and receive the webpage data securely."
@@ -1251,12 +1251,12 @@ const QUESTIONS = [
         topic: "Internet & Web Basics",
         questionText: "What is a browser cookie?",
         options: [
-            "Small data file stored by websites on your computer",
             "A computer virus",
+            "Small data file stored by websites on your computer",
             "A type of website",
             "An internet speed booster"
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 1,
         difficulty: "medium",
         explanation: "Cookies are small text files websites store on your device to remember information like login status, preferences, and shopping cart contents.",
         realWorldExample: "When you stay logged into Facebook or a shopping site remembers your cart, that's cookies at work. They save you from logging in repeatedly."
@@ -1266,12 +1266,12 @@ const QUESTIONS = [
         topic: "Internet & Web Basics",
         questionText: "What is social media?",
         options: [
-            "Online platforms for sharing content and connecting with others",
             "A type of email service",
             "An internet browser",
+            "Online platforms for sharing content and connecting with others",
             "A computer operating system"
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 2,
         difficulty: "easy",
         explanation: "Social media platforms allow users to create profiles, share content (text, photos, videos), and interact with others through comments, likes, and messages.",
         realWorldExample: "Facebook, Instagram, Twitter, LinkedIn, and TikTok are social media platforms where billions share updates, photos, and videos daily."
@@ -1281,12 +1281,12 @@ const QUESTIONS = [
         topic: "Internet & Web Basics",
         questionText: "What is downloading?",
         options: [
-            "Transferring data FROM the internet TO your device",
             "Transferring data from your device to internet",
             "Deleting files",
-            "Printing documents"
+            "Printing documents",
+            "Transferring data FROM the internet TO your device"
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 3,
         difficulty: "easy",
         explanation: "Downloading is the process of receiving data from a remote system (like a server) and saving it to your local device.",
         realWorldExample: "When you download a movie from Netflix for offline viewing or save an app from the Play Store, data is transferred from servers to your device."
@@ -1315,12 +1315,12 @@ const QUESTIONS = [
         topic: "Networking Basics",
         questionText: "What is a LAN?",
         options: [
-            "Local Area Network - computers connected in a small area",
             "Large Area Network",
+            "Local Area Network - computers connected in a small area",
             "Long Access Network",
             "Linked Application Network"
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 1,
         difficulty: "easy",
         explanation: "A LAN connects computers in a limited area like a home, office, or school building, enabling them to share resources and communicate.",
         realWorldExample: "Your home network connecting your laptop, phone, smart TV, and printer is a LAN. They can share files and the same internet connection."
@@ -1330,12 +1330,12 @@ const QUESTIONS = [
         topic: "Networking Basics",
         questionText: "What is a WAN?",
         options: [
-            "Wide Area Network - connects computers over large distances",
             "Wireless Access Network",
             "Web Application Network",
+            "Wide Area Network - connects computers over large distances",
             "Wired Area Network"
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 2,
         difficulty: "easy",
         explanation: "A WAN connects computers and networks over large geographical areas—cities, countries, or worldwide. The Internet is the largest WAN.",
         realWorldExample: "A company with offices in New York, London, and Tokyo connects them all through a WAN so employees can share resources across continents."
@@ -1345,12 +1345,12 @@ const QUESTIONS = [
         topic: "Networking Basics",
         questionText: "What is WiFi?",
         options: [
-            "Wireless technology for connecting devices to a network",
             "A type of cable",
             "An internet provider company",
-            "A web browser"
+            "A web browser",
+            "Wireless technology for connecting devices to a network"
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 3,
         difficulty: "easy",
         explanation: "WiFi allows devices to connect to a network wirelessly using radio waves, eliminating the need for physical cables.",
         realWorldExample: "At a coffee shop, your phone connects to their WiFi router without any cables, letting you browse the internet while enjoying your drink."
@@ -1375,12 +1375,12 @@ const QUESTIONS = [
         topic: "Networking Basics",
         questionText: "What is a router?",
         options: [
-            "Device that directs internet traffic between networks",
             "A type of computer",
+            "Device that directs internet traffic between networks",
             "A web browser",
             "An operating system"
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 1,
         difficulty: "easy",
         explanation: "A router connects different networks and directs data packets to their destination. Home routers connect your local network to the internet.",
         realWorldExample: "Your home router receives internet from your provider and distributes it to all your devices—computers, phones, smart TVs—via WiFi or cable."
@@ -1390,12 +1390,12 @@ const QUESTIONS = [
         topic: "Networking Basics",
         questionText: "What is a modem?",
         options: [
-            "Device that connects your network to the internet provider",
             "A wireless mouse",
             "A type of monitor",
+            "Device that connects your network to the internet provider",
             "An email server"
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 2,
         difficulty: "easy",
         explanation: "A modem (modulator-demodulator) converts signals between your home network and your internet service provider's network.",
         realWorldExample: "Your cable modem receives signals from the cable company and converts them to data your home network can use. Without it, no internet!"
@@ -1405,12 +1405,12 @@ const QUESTIONS = [
         topic: "Networking Basics",
         questionText: "What is bandwidth?",
         options: [
-            "The maximum rate of data transfer",
             "The physical width of a cable",
             "A type of software",
-            "A network security feature"
+            "A network security feature",
+            "The maximum rate of data transfer"
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 3,
         difficulty: "medium",
         explanation: "Bandwidth is the maximum amount of data that can be transmitted over a connection in a given time, usually measured in Mbps (megabits per second).",
         realWorldExample: "A 100 Mbps connection can handle HD streaming for several people. A 10 Mbps connection might struggle with multiple simultaneous users."
@@ -1435,12 +1435,12 @@ const QUESTIONS = [
         topic: "Networking Basics",
         questionText: "What is a server?",
         options: [
-            "A computer that provides services to other computers",
             "A type of printer",
+            "A computer that provides services to other computers",
             "An internet browser",
             "A wireless connection"
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 1,
         difficulty: "easy",
         explanation: "A server is a powerful computer that stores data, hosts websites, or provides services (email, games, files) to other computers called clients.",
         realWorldExample: "When you visit google.com, your browser (client) requests the page from Google's servers. The servers send back the webpage you see."
@@ -1450,12 +1450,12 @@ const QUESTIONS = [
         topic: "Networking Basics",
         questionText: "What is a firewall?",
         options: [
-            "Security system that monitors and controls network traffic",
             "A physical barrier for computers",
             "A type of antivirus",
+            "Security system that monitors and controls network traffic",
             "An internet speed booster"
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 2,
         difficulty: "medium",
         explanation: "A firewall monitors incoming and outgoing network traffic and blocks unauthorized access based on security rules, protecting your network from threats.",
         realWorldExample: "Windows Firewall blocks suspicious incoming connections that might be hackers. Corporate firewalls might also block employees from accessing certain websites."
@@ -1469,12 +1469,12 @@ const QUESTIONS = [
         topic: "Basic Security",
         questionText: "What is a computer virus?",
         options: [
-            "Malicious software that can replicate and spread",
             "A hardware problem",
             "A slow internet connection",
-            "An operating system"
+            "An operating system",
+            "Malicious software that can replicate and spread"
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 3,
         difficulty: "easy",
         explanation: "A computer virus is malicious code that attaches to legitimate programs, replicates itself, and can damage files, steal data, or disrupt system operations.",
         realWorldExample: "Opening an infected email attachment can spread a virus that encrypts all your files and demands ransom, or steals your passwords."
@@ -1499,12 +1499,12 @@ const QUESTIONS = [
         topic: "Basic Security",
         questionText: "What is phishing?",
         options: [
-            "Fraudulent attempt to steal sensitive information via fake messages",
             "A type of fishing game",
+            "Fraudulent attempt to steal sensitive information via fake messages",
             "A secure email service",
             "A browser feature"
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 1,
         difficulty: "medium",
         explanation: "Phishing uses fake emails, messages, or websites that appear legitimate to trick you into revealing passwords, credit card numbers, or personal information.",
         realWorldExample: "An email that looks like it's from your bank asks you to 'verify your account' by clicking a link. The link goes to a fake site that steals your login."
@@ -1514,12 +1514,12 @@ const QUESTIONS = [
         topic: "Basic Security",
         questionText: "What makes a strong password?",
         options: [
-            "Mix of uppercase, lowercase, numbers, and symbols; at least 12 characters",
             "Your name and birthday",
             "The word 'password'",
+            "Mix of uppercase, lowercase, numbers, and symbols; at least 12 characters",
             "Simple common words"
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 2,
         difficulty: "easy",
         explanation: "Strong passwords are long, random, and include a mix of character types. They're hard to guess and resist automated cracking attempts.",
         realWorldExample: "Instead of 'john1990', use 'J0hn$Tr0ng#2024!' or better yet, a passphrase like 'Purple-Elephant-Jumping-42!' which is long and memorable."
@@ -1529,12 +1529,12 @@ const QUESTIONS = [
         topic: "Basic Security",
         questionText: "What is two-factor authentication (2FA)?",
         options: [
-            "Using two different verification methods to log in",
             "Having two passwords",
             "Using two email addresses",
-            "Logging in twice"
+            "Logging in twice",
+            "Using two different verification methods to log in"
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 3,
         difficulty: "medium",
         explanation: "2FA requires two different forms of identification: something you know (password) plus something you have (phone code) or something you are (fingerprint).",
         realWorldExample: "After entering your password, your bank sends a code to your phone. You must enter both to access your account—even if someone steals your password."
@@ -1559,12 +1559,12 @@ const QUESTIONS = [
         topic: "Basic Security",
         questionText: "What should you do if you receive a suspicious email?",
         options: [
-            "Don't click links, delete it, and report as spam",
             "Click the link to verify",
+            "Don't click links, delete it, and report as spam",
             "Reply asking for more details",
             "Forward it to friends"
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 1,
         difficulty: "easy",
         explanation: "Suspicious emails may contain malware or phishing attempts. Never click links or attachments. Delete, mark as spam, and if it claims to be from a company, contact them directly.",
         realWorldExample: "An email claims your Netflix account is suspended. Instead of clicking their link, go directly to Netflix.com and check your account status there."
@@ -1574,12 +1574,12 @@ const QUESTIONS = [
         topic: "Basic Security",
         questionText: "What is a secure website indicator?",
         options: [
-            "HTTPS and a padlock icon in the browser",
             "Colorful design",
             "Many advertisements",
+            "HTTPS and a padlock icon in the browser",
             "Fast loading speed"
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 2,
         difficulty: "easy",
         explanation: "Secure websites use HTTPS (not HTTP) and display a padlock icon. This means data between you and the site is encrypted and harder to intercept.",
         realWorldExample: "Before entering your credit card on a shopping site, check for the padlock and https:// in the address bar. Never enter sensitive data on http:// sites."
@@ -1589,12 +1589,12 @@ const QUESTIONS = [
         topic: "Basic Security",
         questionText: "Why should you update software regularly?",
         options: [
-            "Updates fix security vulnerabilities and bugs",
             "Updates slow down your computer",
             "Updates are only for new features",
-            "Updates are not important"
+            "Updates are not important",
+            "Updates fix security vulnerabilities and bugs"
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 3,
         difficulty: "easy",
         explanation: "Software updates often patch security holes that hackers could exploit. Old, unpatched software is a common entry point for malware.",
         realWorldExample: "The WannaCry ransomware attack in 2017 exploited a Windows vulnerability. Computers that had installed the security update months earlier were protected."
@@ -1619,12 +1619,12 @@ const QUESTIONS = [
         topic: "Basic Security",
         questionText: "What is spyware?",
         options: [
-            "Software that secretly collects information about users",
             "A type of camera",
+            "Software that secretly collects information about users",
             "A security tool",
             "An email client"
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 1,
         difficulty: "medium",
         explanation: "Spyware is malicious software that secretly monitors and collects personal information like browsing habits, keystrokes, passwords, and financial data.",
         realWorldExample: "A keylogger is spyware that records everything you type—including passwords and credit card numbers—and sends it to hackers."
@@ -1634,12 +1634,12 @@ const QUESTIONS = [
         topic: "Basic Security",
         questionText: "What is the purpose of a backup?",
         options: [
-            "Protect data by keeping copies in separate locations",
             "Speed up your computer",
             "Block viruses",
+            "Protect data by keeping copies in separate locations",
             "Improve internet connection"
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 2,
         difficulty: "easy",
         explanation: "Backups are copies of your important data stored separately. If your computer fails, is stolen, or gets ransomware, you can restore from the backup.",
         realWorldExample: "If your laptop is stolen, a cloud backup means you haven't lost your thesis, family photos, or important documents. You can restore them to a new device."
@@ -1653,12 +1653,12 @@ const QUESTIONS = [
         topic: "Productivity Software",
         questionText: "What is Microsoft Word used for?",
         options: [
-            "Creating and editing text documents",
             "Creating spreadsheets",
             "Making presentations",
-            "Editing photos"
+            "Editing photos",
+            "Creating and editing text documents"
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 3,
         difficulty: "easy",
         explanation: "Microsoft Word is a word processor for creating, editing, and formatting text documents like letters, reports, resumes, and essays.",
         realWorldExample: "Students write essays in Word, businesses create reports, and job seekers format their resumes. Word's features include spell-check, formatting, and templates."
@@ -1683,12 +1683,12 @@ const QUESTIONS = [
         topic: "Productivity Software",
         questionText: "What is PowerPoint used for?",
         options: [
-            "Creating visual presentations with slides",
             "Writing essays",
+            "Creating visual presentations with slides",
             "Calculating numbers",
             "Browsing the web"
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 1,
         difficulty: "easy",
         explanation: "PowerPoint is presentation software for creating slideshows with text, images, charts, and animations to present information visually.",
         realWorldExample: "Teachers create lecture slides, salespeople present products, and students deliver project presentations using PowerPoint."
@@ -1698,12 +1698,12 @@ const QUESTIONS = [
         topic: "Productivity Software",
         questionText: "In Excel, what is a cell?",
         options: [
-            "The intersection of a row and column where data is entered",
             "A type of formula",
             "A chart element",
+            "The intersection of a row and column where data is entered",
             "A printed page"
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 2,
         difficulty: "easy",
         explanation: "A cell is the basic unit of a spreadsheet where a row and column intersect. Each cell can contain text, numbers, or formulas and has a unique address like A1 or B5.",
         realWorldExample: "Cell A1 is the first cell (column A, row 1). You might enter your name there, put your age in B1, and a formula in C1 to calculate something."
@@ -1713,12 +1713,12 @@ const QUESTIONS = [
         topic: "Productivity Software",
         questionText: "What does Ctrl+C do in most applications?",
         options: [
-            "Copy selected content",
             "Cut selected content",
             "Paste content",
-            "Close the application"
+            "Close the application",
+            "Copy selected content"
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 3,
         difficulty: "easy",
         explanation: "Ctrl+C is the universal keyboard shortcut for copying selected text, files, or objects to the clipboard without removing the original.",
         realWorldExample: "Select text in a document, press Ctrl+C, move to another location, and press Ctrl+V to paste a copy. The original remains where it was."
@@ -1743,12 +1743,12 @@ const QUESTIONS = [
         topic: "Productivity Software",
         questionText: "What is Google Docs?",
         options: [
-            "A free online word processor by Google",
             "A search engine",
+            "A free online word processor by Google",
             "An email service",
             "A video platform"
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 1,
         difficulty: "easy",
         explanation: "Google Docs is a free, cloud-based word processor. Documents are saved automatically online and can be accessed from any device and shared easily.",
         realWorldExample: "Multiple students can work on the same document simultaneously from different locations, seeing each other's edits in real-time."
@@ -1758,12 +1758,12 @@ const QUESTIONS = [
         topic: "Productivity Software",
         questionText: "What is the purpose of spell check?",
         options: [
-            "Identify and correct spelling errors",
             "Format text fonts",
             "Insert images",
+            "Identify and correct spelling errors",
             "Print documents"
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 2,
         difficulty: "easy",
         explanation: "Spell check automatically identifies potential spelling mistakes and suggests corrections, helping produce error-free documents.",
         realWorldExample: "Type 'recieve' and spell check underlines it in red, suggesting 'receive'. It catches typos you might miss when proofreading."
@@ -1773,12 +1773,12 @@ const QUESTIONS = [
         topic: "Productivity Software",
         questionText: "What does Ctrl+Z do?",
         options: [
-            "Undo the last action",
             "Redo the last action",
             "Zoom in",
-            "Close without saving"
+            "Close without saving",
+            "Undo the last action"
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 3,
         difficulty: "easy",
         explanation: "Ctrl+Z is the universal undo command that reverses your last action. It's one of the most useful shortcuts for correcting mistakes.",
         realWorldExample: "Accidentally deleted a paragraph? Press Ctrl+Z immediately to bring it back. You can often undo multiple steps by pressing it repeatedly."
